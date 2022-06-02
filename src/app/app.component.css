@@ -1,0 +1,83 @@
+
+.parent {
+    display: flex;
+    padding: 5rem;
+}
+
+.child-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.child-1 > div {
+    text-align: center;
+    justify-content: center;
+}
+
+.child-1 > div > h2 {
+    font-size: 4em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+
+}
+
+
+.child-1 > div > h4 {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+
+}
+
+
+.child-1 > .input-word {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+} 
+
+.input-word >form> button {
+    margin-left: 2rem;
+    width:10rem;
+    height: fit-content;
+}
+
+.child-1 > .input-word > form > mat-form-field {
+    width: 36rem;
+    font-size: 2rem;
+}  
+
+.child-1 > .table {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top: 5rem;
+}
+
+.child-1 > .table > table {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.spinner-container{
+    display: flex;
+    justify-content: center;
+}
+
+mat-label, input, .update-label {
+    font-family: 'Nunito', sans-serif;
+}
+
+.update-label {
+    color: midnightblue;
+}
+
+mat-header-cell, mat-cell,mat-cell>button {
+    font-size: 1.5rem;
+}
