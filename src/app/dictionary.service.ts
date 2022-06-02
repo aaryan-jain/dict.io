@@ -10,7 +10,7 @@ var globalWordArr: Array<string> = [
   'Flash',
   'Wonderwoman',
 ];
-const host_name = 'http://localhost:9000/';
+const host_name = 'https://dictionary-server-v1.herokuapp.com/';
 
 @Injectable({
   providedIn: 'root',
